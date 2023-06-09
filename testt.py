@@ -1,24 +1,9 @@
-# dictionaryname key = value
+class Point:
+    color = 'red'
+    circle = 2
 
-for i in range(len(lst_in)):
-    lst_data.append({})
-
-flatten_lst_in = []
-sp_lst_in = [i.split() for i in lst_in]
-
-for i in sp_lst_in:
-    flatten_lst_in += i
-lst_in = flatten_lst_in
-
-lst_in_id = 0
-
-for i in lst_data:
-    for j in FIELDS:
-        i[j] = lst_in[lst_in_id]
-        lst_in_id +=1
-
-
-# [{'id': None, 'name': None, 'old': None, 'salary': None}, {'id': None, 'name': None, 'old': None, 'salary': None}]
-#
-# for i in lst_in_sp:
-#     for j in i:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+pt = Point(110, 11)
+print(pt.__dict__)
