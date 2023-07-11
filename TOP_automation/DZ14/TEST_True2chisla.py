@@ -6,6 +6,9 @@ class TEST_True2chisla(unittest.TestCase):
         self.dvachisla = Dvachisla
 
     def testdvachisla(self):
-        self.assertTrue(self.dvachisla.inputOfTwo([1, 2, 3, 4, 5], [1, 2, 9, 7])==1)
+        self.dvachisla = Dvachisla
+        action = Dvachisla()
+        actiontoassert = action.inputOfTwo([1, 2, 3, 4, 5], [1, 2, 9, 7])
+        self.assertTrue(actiontoassert==1)
 
 # self.assertTrue('FOO'.isupper())
