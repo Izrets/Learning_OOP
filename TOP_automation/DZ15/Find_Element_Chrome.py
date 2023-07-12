@@ -1,8 +1,3 @@
-# Открыть браузер Chrome  и загрузить страницу http://example.com
-# Найти элемент на странице с помощью локатора  и проверить, что его
-# текст соответствует ожидаемому значению.Выполнить клик по кнопке
-# на странице и убедиться\  , что страница была успешно перезагружена.
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import  WebDriverWait
