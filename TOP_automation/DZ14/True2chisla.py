@@ -17,5 +17,9 @@ class Dvachisla:
             return False
 
 
+c = Dvachisla()
+e = c.inputOfTwo([1, 2], [2, 1])
+print(e)
+
 
 
